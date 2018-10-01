@@ -1,0 +1,20 @@
+*{
+	border: 1px solid red;
+}
+
+
+div{
+	border: 3px solid blue;
+}
+
+.element{
+	border: 5px dashed cyan;
+}
+
+#deosebit{
+	border: 7px dotted orange;
+}
+
+#foarte_deosebit{
+	border: 12px solid green;
+}
