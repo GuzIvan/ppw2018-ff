@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+div{
+	width: 200px;
+	height: 150px;
+	background: red;
+	border: 4px solid green;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+}
+
+.relative{
+	position: relative;
+	background: yellow;
+	left: 25px;
+	top: 30px;
+}
+
+.absolute{
+	position: absolute;
+	background: cyan;
+	left: 25px;
+	top: 30px;
+}
+
+.fixed{
+	position: fixed;
+	background: pink;
+	left: 45px;
+	top: 50px;
+}
