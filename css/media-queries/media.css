@@ -1,0 +1,42 @@
+header{
+	background: cyan;
+	height: 150px;
+}
+.first{
+	background: blue;	
+}
+.second{
+	background: green;	
+}
+
+.third{
+	background: #FFFF00;
+}
+
+.first, .second, .third{
+	width: 32%;
+	display: inline-block;
+	height: 450px;
+	border: 1px solid red;
+	text-align: center;
+	color: white;
+	font-size: 60px;
+}
+
+
+
+@media only screen and (max-width: 700px){
+
+	header{
+		display: none;
+	}
+
+	.first{
+		background: red;
+	}
+
+
+	.first, .second, .third{
+		width: 100%;
+	}
+}
