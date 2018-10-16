@@ -1,0 +1,28 @@
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	
+	border: 1px solid white;
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+	background: yellow;
+	border-radius: 5px;
+}
+
+nav ul li a{
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 26px;
+	display: block;
+}
+
+nav ul li:hover{
+	background: cyan;
+}
+

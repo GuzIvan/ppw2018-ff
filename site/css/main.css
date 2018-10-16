@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: cyan;
+	height: 150px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	background: green;
+}
+
+aside{
+	background: red;
+	width: 10%;
+}
+
+main{
+	background: gray;
+	width: 75%;
+}
+
+main, aside{
+	display: inline-block;
+	vertical-align: top;
+}
+
+main section{
+	background: rgba(255, 255, 255, 0.5);
+	margin: 10px;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+footer{
+	background: violet;
+}
