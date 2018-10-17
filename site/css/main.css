@@ -7,6 +7,21 @@ header{
 	height: 150px;
 }
 
+header img{
+	height: 100%;
+}
+
+header img, header h1{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header h1{
+	text-align: center;
+	border: 1px solid red;
+}
+
+
 nav ul{
 	list-style: none;
 	padding: 0;
@@ -16,6 +31,10 @@ nav ul{
 aside{
 	background: red;
 	width: 10%;
+}
+
+aside nav ul li{
+	width: 100%;
 }
 
 main{
@@ -35,6 +54,37 @@ main section{
 	padding: 15px;
 }
 
+main section article{
+	border-bottom: 2px dashed black;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+
+main section article:last-child{
+	border-bottom: none;
+}
+
+main section article img{
+	height: 75px;
+}
+
+main section article img, 
+main section article div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+main section article h2{
+	color: red;
+}
+
+.column-left, .column-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
 footer{
 	background: violet;
+	text-align: center;
+	padding: 15px 0 25px 0;
 }
