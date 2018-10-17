@@ -1,0 +1,97 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: cyan;
+	height: 150px;
+}
+
+header img{
+	height: 100%;
+}
+
+header img, header h1{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header h1{
+	text-align: center;
+	border: 1px solid red;
+}
+
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	background: green;
+}
+
+body > nav > nav > a.flex-sm-fill.text-sm-center.nav-link.active{
+	background: green;
+}
+
+aside{
+	background: red;
+	width: 10%;
+}
+
+aside nav ul li{
+	width: 100%;
+}
+
+main{
+	background: gray;
+	width: 75%;
+}
+
+main, aside{
+	display: inline-block;
+	vertical-align: top;
+}
+
+main section{
+	background: rgba(255, 255, 255, 0.5);
+	margin: 10px;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+main section article{
+	border-bottom: 2px dashed black;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	display: inline-block !important;
+	width: 20%;
+}
+
+main section article:last-child{
+	border-bottom: none;
+}
+
+main section article img{
+	height: 75px;
+}
+
+main section article img, 
+main section article div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+main section article h2{
+	color: red;
+}
+
+.column-left, .column-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer{
+	background: violet;
+	text-align: center;
+	padding: 15px 0 25px 0;
+}
+
